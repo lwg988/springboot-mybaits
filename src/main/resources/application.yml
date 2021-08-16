@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/test?seSSL=true&serverTimezone=GMT&useUnicode=true&characterEncoding=utf8
+    username: root
+    password: root
+    driver-class-name: com.mysql.cj.jdbc.Driver
+mybatis:
+  mapper-locations: /mapper/*.xml
+  type-aliases-package: com.li.entiy
+server:
+  servlet:
+    context-path: /aaa
